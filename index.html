@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Using cookies to ...</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="wrapper">
       <h1>Using cookies to ...</h1>
+      <div class="container">
+        <div id="visitedCount"></div>
+        <div class="button-area">
+          <button id="reloadBtn" class="btn blue">Reload.</button>
+          <button id="deleteBtn" class="btn red">Cookie all delete.</button>
+        </div>
+      </div>
     </div>
-    <script src="./js/visitedCount.js"></script>
+    <script type="module" src="./js/visitedCount.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
