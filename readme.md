@@ -2,4 +2,5 @@
 
 ・6分後にcookie自動削除
 
-■https://github.com/Buchi-18/using-cookies-to
+■Github Pages
+https://buchi-18.github.io/using-cookies-to/
